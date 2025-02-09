@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprunki Incredibox - Creative Music Production with Horror Elements</title>
+    <meta name="description" content="Experience Sprunki Incredibox - A fan-created mod that transforms the classic music game with horror elements, diverse character designs, and expanded sound libraries. Create unique musical compositions in this innovative rhythm game.">
+    <meta name="author" content="Sprunki Games Team">
+    <meta property="og:title" content="Sprunki Incredibox - Creative Music Production with Horror Elements">
+    <meta property="og:description" content="Experience Sprunki Incredibox - A fan-created mod that transforms the classic music game with horror elements, diverse character designs, and expanded sound libraries.">
+    <meta property="og:image" content="/apple-touch-icon.png">
+    <meta property="og:url" content="https://sprunki-games.online">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6XRRRWJYL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-E6XRRRWJYL');
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif;
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-glow {
+            animation: glow 3s ease-in-out infinite;
+        }
+        @keyframes glow {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 0.4; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/40 backdrop-blur-lg border-b border-purple-900/20">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-purple-500">Sprunki Incredibox</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-purple-400 transition-colors">Features</a>
+                    <a href="#characters" class="hover:text-purple-400 transition-colors">Characters</a>
+                    <a href="#modes" class="hover:text-purple-400 transition-colors">Game Modes</a>
+                    <a href="#play" class="hover:text-purple-400 transition-colors">Play Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="min-h-[50vh] flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute w-72 h-72 bg-purple-500/10 rounded-full -top-20 -left-20 animate-float blur-3xl"></div>
+            <div class="absolute w-[30rem] h-[30rem] bg-blue-900/10 rounded-full -bottom-32 -right-32 animate-float blur-3xl" style="animation-delay: 2s"></div>
+        </div>
+        <div class="absolute inset-0 bg-black/70 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center py-12">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Create Music in a New Dimension</h1>
+            <p class="text-lg md:text-xl mb-6 text-gray-300">Where Rhythm Meets Horror - A Unique Take on Music Creation</p>
+            <a href="#play" class="bg-gradient-to-r from-purple-600 to-blue-600 px-6 py-3 rounded-full text-lg font-semibold hover:scale-105 transition-transform inline-block shadow-lg shadow-purple-500/25">Start Creating</a>
+        </div>
+    </header>
+
+    <!-- Game Section -->
+    <section id="play" class="py-20 bg-black/40">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Experience Sprunki Incredibox</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl border border-purple-900/20">
+                    <iframe src="https://s.sprunkiincredibox.com/game/sprunki/index.html" class="w-full h-[600px]" frameborder="0" allowfullscreen id="game-frame"></iframe>
+                </div>
+                <button onclick="toggleFullscreen()" class="absolute top-4 right-4 bg-black/50 hover:bg-black/70 p-2 rounded-lg backdrop-blur-sm transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Drag-and-Drop Mechanics</h3>
+                    <p class="text-gray-300">Easily combine characters to layer sounds, from beats to vocal effects. Each character represents a unique musical element.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Horror Mode</h3>
+                    <p class="text-gray-300">Transform characters into eerie, bloodstained versions with unsettling animations and sound effects using the black hat icon.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Multiple Mods</h3>
+                    <p class="text-gray-300">Explore different versions including Remastered, Punchers, and Halloween, each offering unique themes and gameplay.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Expanded Sound Library</h3>
+                    <p class="text-gray-300">Access over 70 tracks across genres, including hip-hop, electronic, and samba, with experimental effects.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Community Features</h3>
+                    <p class="text-gray-300">Share your tracks, participate in challenges, and discover creations from other players.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Ad-Free Experience</h3>
+                    <p class="text-gray-300">Enjoy seamless music creation without interruptions or in-app purchases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section id="characters" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Meet the Characters</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                    <h3 class="text-2xl font-semibold mb-4">Oren</h3>
+                    <p class="text-gray-300">The orange alien drummer with unique percussion sounds and rhythmic abilities.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                    <h3 class="text-2xl font-semibold mb-4">Clukr</h3>
+                    <p class="text-gray-300">A cymbal-headed intellectual character bringing metallic sounds and complex rhythms.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                    <h3 class="text-2xl font-semibold mb-4">Sky</h3>
+                    <p class="text-gray-300">A cyan Sprunki with a serene vibe, specializing in ambient sounds and melodies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Modes Section -->
+    <section id="modes" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Game Modes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                    <h3 class="text-2xl font-semibold mb-4">Creative Mode</h3>
+                    <p class="text-gray-300">Freely experiment with sounds and visuals to compose your unique music.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                    <h3 class="text-2xl font-semibold mb-4">Challenge Mode</h3>
+                    <p class="text-gray-300">Complete rhythm-based tasks and unlock special animations through strategic character combinations.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                    <h3 class="text-2xl font-semibold mb-4">Hidden Modes</h3>
+                    <p class="text-gray-300">Discover secret content like "Dandy's World" and "Infected" mode through specific actions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">System Requirements</h2>
+            <div class="max-w-3xl mx-auto bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-purple-900/20">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Platforms</h3>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>• Web Browsers (Chrome recommended)</li>
+                            <li>• Android Devices</li>
+                            <li>• iOS Devices</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Additional Info</h3>
+                        <ul class="space-y-2 text-gray-300">
+                            <li>• Age Rating: 13+</li>
+                            <li>• Languages: English, Chinese</li>
+                            <li>• Internet Connection Required</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-blue-900/80"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h2 class="text-4xl font-bold mb-8">Ready to Create?</h2>
+            <a href="#play" class="bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform inline-block shadow-lg shadow-purple-500/25">Start Making Music</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-black/50">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400">&copy; 2025 Sprunki Incredibox. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Script -->
+    <script>
+        function toggleFullscreen() {
+            const iframe = document.getElementById('game-frame');
+            if (!document.fullscreenElement) {
+                if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                } else if (iframe.webkitRequestFullscreen) {
+                    iframe.webkitRequestFullscreen();
+                } else if (iframe.msRequestFullscreen) {
+                    iframe.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
