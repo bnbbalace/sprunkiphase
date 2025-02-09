@@ -3,68 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprunki Games - Fun & Free Online Games</title>
-    <meta name="description" content="Play free online games at Sprunki Games! Discover a collection of fun and exciting games for all ages. New games added regularly.">
-    <meta name="keywords" content="sprunki games, online games, free games, browser games, fun games, casual games">
+    <title>Sprunki Game: Create Your Own Music with Unique Characters - Standalone from Incredibox ｜ sprunki-games.online</title>
+    <meta name="description" content="Sprunki Game is an innovative music game that lets players choose from various characters to compose unique songs. Initially a mod for the popular Incredibox, Sprunki has evolved into a standalone game, offering a fresh and exciting musical experience for players of all ages.">
+    <meta name="author" content="Sprunki Games Team">
+    <meta property="og:title" content="Sprunki Game: Create Your Own Music with Unique Characters - Standalone from Incredibox ｜ sprunki-games.online">
+    <meta property="og:description" content="Sprunki Game is an innovative music game that lets players choose from various characters to compose unique songs. Initially a mod for the popular Incredibox, Sprunki has evolved into a standalone game, offering a fresh and exciting musical experience for players of all ages.">
+    <meta property="og:image" content="/apple-touch-icon.png"> <!-- Replace with actual image URL -->
+    <meta property="og:url" content="https://sprunki-games.online"> <!-- Replace with actual URL -->
+    <meta name="twitter:card" content="summary_large_image">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="canonical" href="https://sprunki-games.online">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif;
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-glow {
+            animation: glow 3s ease-in-out infinite;
+        }
+        @keyframes glow {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 0.4; }
+        }
+    </style>
 </head>
-<body class="bg-gray-900 text-white min-h-screen">
-    <header class="container mx-auto px-4 py-8">
-        <h1 class="text-4xl md:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Sprunki Games
-        </h1>
-        <p class="text-center mt-4 text-lg md:text-xl text-gray-300">
-            Your Gateway to Fun Online Gaming
-        </p>
-    </header>
-
-    <main class="container mx-auto px-4 py-8">
-        <section class="max-w-2xl mx-auto text-center">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-6">
-                Coming Soon!
-            </h2>
-            <p class="text-gray-300 mb-8">
-                We're working hard to bring you the best collection of free online games.
-                Stay tuned for an amazing gaming experience!
-            </p>
-            <div class="space-y-6">
-                <div class="p-6 rounded-lg bg-gray-800 hover:bg-gray-700 transition">
-                    <h3 class="text-xl font-semibold mb-2">Free Online Games</h3>
-                    <p class="text-gray-400">Access a variety of exciting games without any cost</p>
-                </div>
-                <div class="p-6 rounded-lg bg-gray-800 hover:bg-gray-700 transition">
-                    <h3 class="text-xl font-semibold mb-2">Regular Updates</h3>
-                    <p class="text-gray-400">New games added to our collection frequently</p>
-                </div>
-                <div class="p-6 rounded-lg bg-gray-800 hover:bg-gray-700 transition">
-                    <h3 class="text-xl font-semibold mb-2">Mobile Friendly</h3>
-                    <p class="text-gray-400">Play your favorite games on any device</p>
+<body class="bg-gradient-to-br from-indigo-900 via-purple-900 to-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/20 backdrop-blur-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">Sprunki Game</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-purple-400 transition-colors">Features</a>
+                    <a href="#play" class="hover:text-purple-400 transition-colors">Play Now</a>
+                    <a href="#how-to-play" class="hover:text-purple-400 transition-colors">How to Play</a>
+                    <a href="#faq" class="hover:text-purple-400 transition-colors">FAQ</a>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </nav>
 
-    <footer class="container mx-auto px-4 py-8 mt-auto">
-        <div class="text-center text-gray-400">
-            <p>&copy; 2024 Sprunki Games. All rights reserved.</p>
-            <p class="mt-2">Contact: info@sprunki-games.online</p>
+    <!-- Hero Section -->
+    <header class="min-h-[50vh] flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute w-72 h-72 bg-purple-500/20 rounded-full -top-20 -left-20 animate-float blur-3xl"></div>
+            <div class="absolute w-[30rem] h-[30rem] bg-indigo-500/20 rounded-full -bottom-32 -right-32 animate-float blur-3xl" style="animation-delay: 2s"></div>
+        </div>
+        <div class="absolute inset-0 bg-black/50 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center py-12">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Play Sprunki Game Online For Free</h1>
+            <p class="text-lg md:text-xl mb-6 text-gray-300">Sprunki game Enhance Your Incredibox Experience with Unique Characters and Sounds</p>
+            <a href="#play" class="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-3 rounded-full text-lg font-semibold hover:scale-105 transition-transform inline-block shadow-lg shadow-purple-500/25">Play Now</a>
+        </div>
+    </header>
+
+
+    <!-- Game Section -->
+    <section id="play" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Sprunki Incredibox</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl border border-purple-500/20">
+                    <iframe src="https://s.sprunkiincredibox.com/game/sprunki/index.html" class="w-full h-[600px]" frameborder="0" allowfullscreen id="game-frame"></iframe>
+                </div>
+                <button onclick="toggleFullscreen()" class="absolute top-4 right-4 bg-black/50 hover:bg-black/70 p-2 rounded-lg backdrop-blur-sm transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 在 body 结束标签前添加 -->
+    <script>
+        function toggleFullscreen() {
+            const iframe = document.getElementById('game-frame');
+            if (!document.fullscreenElement) {
+                if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                } else if (iframe.webkitRequestFullscreen) {
+                    iframe.webkitRequestFullscreen();
+                } else if (iframe.msRequestFullscreen) {
+                    iframe.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
+
+    <!-- What is Sprunki Game Section -->
+    <section class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">What is Sprunki Game?</h2>
+            <div class="max-w-3xl mx-auto bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10">
+                <p class="text-gray-300 text-lg leading-relaxed">
+                    Sprunki is a music game where players select different characters to create songs. Originating as a mod for Incredibox, it is now available as a standalone game. Sprunki allows you to create unique music mixes using various sound tracks and 2D characters.
+                </p>
+                <p class="text-gray-300 text-lg leading-relaxed mt-4">
+                    You can experiment with endless sound and character combinations using drag-and-drop controls to build custom tracks.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                        </svg>
+                        <span class="text-gray-300">Create Custom Music Mixes</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                        <span class="text-gray-300">Unique Character Selection</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                        </svg>
+                        <span class="text-gray-300">Drag-and-Drop Controls</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <span class="text-gray-300">Endless Combinations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-400 mb-2">1M+</div>
+                    <div class="text-sm uppercase tracking-wider">Active Players</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-400 mb-2">50+</div>
+                    <div class="text-sm uppercase tracking-wider">Game Levels</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-400 mb-2">4.9/5</div>
+                    <div class="text-sm uppercase tracking-wider">User Rating</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-400 mb-2">24/7</div>
+                    <div class="text-sm uppercase tracking-wider">Support</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Game Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Music Creation</h3>
+                    <p class="text-gray-300">Craft unique soundscapes by mixing loops, vocals, beats, and melodies. Experiment with various sound effects and vocal samples to create your perfect soundtrack.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Character System</h3>
+                    <p class="text-gray-300">Interact with colorful and quirky characters. Customize their outfits and accessories to change their sounds and create unique musical combinations.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Interactive Gameplay</h3>
+                    <p class="text-gray-300">Easy-to-navigate interface with intuitive drag-and-drop controls. Create custom soundtracks while solving rhythm-based puzzles.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Dynamic Environments</h3>
+                    <p class="text-gray-300">Watch as levels respond to your musical choices, with visuals and environmental elements that pulse and react to your beats and melodies.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Progressive Phases</h3>
+                    <p class="text-gray-300">Experience evolving settings that match your musical creations, with new challenges and characters introduced in each phase.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Boss Battles</h3>
+                    <p class="text-gray-300">Face epic boss fights where you must use your musical layers strategically to influence and defeat challenging opponents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play -->
+    <section id="how-to-play" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">How to Play</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-8">
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-purple-600 to-pink-600 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">1</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Access the Game</h3>
+                            <p class="text-gray-300">Start playing directly in your browser. No downloads required - just jump right in and start creating music.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-purple-600 to-pink-600 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">2</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Choose Your Sounds</h3>
+                            <p class="text-gray-300">Select from a variety of beats, effects, melodies, and voices to begin building your musical masterpiece.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-purple-600 to-pink-600 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">3</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Mix and Match</h3>
+                            <p class="text-gray-300">Drag and drop elements onto characters to change their appearance and sounds. Create unique combinations and discover special effects.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-purple-600 to-pink-600 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">4</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Experiment</h3>
+                            <p class="text-gray-300">Try different combinations to unlock hidden features and create unique musical compositions. Each character brings their own special abilities to your mix.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-purple-600 to-pink-600 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">5</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Discover Secrets</h3>
+                            <p class="text-gray-300">Explore special combinations and hidden features that transform the game experience. Keep experimenting to find all the secret elements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">What is Sprunki Game?</h3>
+                    <p class="text-gray-300">Sprunki Game is an innovative music game that allows players to select different characters to create unique songs. Originally developed as a mod for the popular Incredibox game, it has now evolved into a standalone game that offers enhanced features and gameplay.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">How did Sprunki Game originate?</h3>
+                    <p class="text-gray-300">Sprunki Game originated as a mod for Incredibox, a well-loved rhythm-based game where players can mix musical sounds. The positive reception and creative potential of the mod inspired the creators to develop Sprunki into its own standalone game, allowing for greater creativity and player engagement.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">What makes Sprunki Game unique?</h3>
+                    <p class="text-gray-300">What sets Sprunki Game apart is its blend of character selection and music composition. Players can choose from a variety of characters, each with their own unique sounds and styles, which they can mix and match to create custom songs. This interactive experience engages users in both visual and auditory creativity.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">Is Sprunki Game suitable for all ages?</h3>
+                    <p class="text-gray-300">Yes, Sprunki Game is suitable for players of all ages. Its engaging gameplay and creative elements make it accessible for kids, while adults can enjoy the deeper musical composition aspects. There are no violent themes or inappropriate content, making it a family-friendly game.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">Can players share their creations?</h3>
+                    <p class="text-gray-300">Yes, players have the opportunity to share their musical creations with others in Sprunki Game. The game includes features that allow users to export their songs and showcase them within the community, promoting interaction and collaboration among players.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">Where can I download Sprunki Game?</h3>
+                    <p class="text-gray-300">Sprunki Game is available for download from various platforms, including its official website and popular gaming stores. Make sure to check for system requirements and compatibility to ensure the best gaming experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-900 to-indigo-900"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h2 class="text-4xl font-bold mb-8">Ready to Start Your Adventure?</h2>
+            <a href="#play" class="bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform inline-block shadow-lg shadow-purple-500/25">Play Now for Free</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-black/50">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400">&copy; 2024 Sprunki Game. All rights reserved.</p>
         </div>
     </footer>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Sprunki Games",
-        "url": "https://sprunki-games.online",
-        "description": "Play free online games at Sprunki Games! Discover a collection of fun and exciting games for all ages.",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://sprunki-games.online/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
 </body>
 </html>
