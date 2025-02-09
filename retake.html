@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprunki Retake: Horror Music Creation Mod - Dark Rhythm Game ｜ sprunki-games.online</title>
+    <meta name="description" content="Experience Sprunki Retake, a horror-themed music creation mod that transforms Incredibox into a dark musical journey. Create eerie soundscapes, unlock the Parasite Mode, and discover hidden horrors.">
+    <meta name="author" content="Sprunki Games Team">
+    <meta property="og:title" content="Sprunki Retake: Horror Music Creation Mod - Dark Rhythm Game ｜ sprunki-games.online">
+    <meta property="og:description" content="Experience Sprunki Retake, a horror-themed music creation mod that transforms Incredibox into a dark musical journey. Create eerie soundscapes, unlock the Parasite Mode, and discover hidden horrors.">
+    <meta property="og:image" content="/apple-touch-icon.png">
+    <meta property="og:url" content="https://sprunki-games.online/retake">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6XRRRWJYL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-E6XRRRWJYL');
+    </script>
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif;
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-glow {
+            animation: glow 3s ease-in-out infinite;
+        }
+        @keyframes glow {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 0.4; }
+        }
+        .horror-gradient {
+            background: linear-gradient(to right, #3d0000, #1a0f1f);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-red-900 to-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/40 backdrop-blur-lg border-b border-red-900/20">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-red-500">Sprunki Retake</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-red-400 transition-colors">Features</a>
+                    <a href="#play" class="hover:text-red-400 transition-colors">Play Now</a>
+                    <a href="#how-to-play" class="hover:text-red-400 transition-colors">How to Play</a>
+                    <a href="#faq" class="hover:text-red-400 transition-colors">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="min-h-[50vh] flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute w-72 h-72 bg-red-500/10 rounded-full -top-20 -left-20 animate-float blur-3xl"></div>
+            <div class="absolute w-[30rem] h-[30rem] bg-purple-900/10 rounded-full -bottom-32 -right-32 animate-float blur-3xl" style="animation-delay: 2s"></div>
+        </div>
+        <div class="absolute inset-0 bg-black/70 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center py-12">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Enter the Dark Realm of Sprunki Retake</h1>
+            <p class="text-lg md:text-xl mb-6 text-gray-300">Where Music Meets Horror - A Twisted Take on Rhythm Gaming</p>
+            <a href="#play" class="bg-gradient-to-r from-red-800 to-purple-900 px-6 py-3 rounded-full text-lg font-semibold hover:scale-105 transition-transform inline-block shadow-lg shadow-red-500/25">Begin Your Dark Journey</a>
+        </div>
+    </header>
+
+    <!-- Game Section -->
+    <section id="play" class="py-20 bg-black/40">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Sprunki Retake</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl border border-red-900/20">
+                    <iframe src="https://s.sprunkiretake.app/Sprunki_Retake.html" class="w-full h-[600px]" frameborder="0" allowfullscreen id="game-frame"></iframe>
+                </div>
+                <button onclick="toggleFullscreen()" class="absolute top-4 right-4 bg-black/50 hover:bg-black/70 p-2 rounded-lg backdrop-blur-sm transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Sprunki Retake Section -->
+    <section class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">What is Sprunki Retake?</h2>
+            <div class="max-w-3xl mx-auto bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20">
+                <p class="text-gray-300 text-lg leading-relaxed">
+                    Sprunki Retake is a horror-themed music creation mod for Incredibox that transforms the cheerful rhythm game into a dark and suspenseful experience. Players can create unique musical compositions while exploring hidden horror elements.
+                </p>
+                <p class="text-gray-300 text-lg leading-relaxed mt-4">
+                    Through drag-and-drop mechanics, players can trigger the "Parasite Mode" using special items, experiencing spine-chilling visual and audio effects that completely transform the game's atmosphere.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                        </svg>
+                        <span class="text-gray-300">Horror Music Creation</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                        <span class="text-gray-300">Eerie Character System</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                        </svg>
+                        <span class="text-gray-300">Parasite Mode</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <span class="text-gray-300">Hidden Content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Game Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20 hover:border-red-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Horror Music Creation</h3>
+                    <p class="text-gray-300">Blend rhythm with horror elements to create unique dark compositions. Mix different sound effects, vocals, and melodies to craft spine-chilling atmospheres.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20 hover:border-red-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Parasite System</h3>
+                    <p class="text-gray-300">Trigger the parasite mode using special items and watch as characters undergo grotesque transformations with distorted visual and audio effects.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20 hover:border-red-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Character Customization</h3>
+                    <p class="text-gray-300">Customize characters with various accessories, each choice affecting both musical style and visual effects to create unique horror experiences.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20 hover:border-red-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Hidden Content</h3>
+                    <p class="text-gray-300">Discover secret characters and hidden combinations to unlock more terrifying game content and special effects.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20 hover:border-red-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Cross-Platform</h3>
+                    <p class="text-gray-300">Play seamlessly across mobile devices and browsers with optimized controls for each platform.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl backdrop-blur-sm border border-red-900/20 hover:border-red-500/50 transition-colors">
+                    <h3 class="text-2xl font-semibold mb-4">Community Features</h3>
+                    <p class="text-gray-300">Share your dark musical creations and participate in the growing community of horror music enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play -->
+    <section id="how-to-play" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">How to Play</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-8">
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-red-800 to-purple-900 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">1</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Start Creating</h3>
+                            <p class="text-gray-300">Begin by dragging characters onto the stage. Each character adds a unique sound to your composition.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-red-800 to-purple-900 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">2</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Customize Characters</h3>
+                            <p class="text-gray-300">Experiment with different accessories and items to change character sounds and appearances.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-red-800 to-purple-900 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">3</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Discover Parasite Mode</h3>
+                            <p class="text-gray-300">Find and use special items like the black hat or red branch to trigger the haunting Parasite Mode transformation.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                        <span class="bg-gradient-to-r from-red-800 to-purple-900 w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-bold">4</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Explore Hidden Content</h3>
+                            <p class="text-gray-300">Try different combinations to uncover secret characters and special effects that enhance your dark musical journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-black/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">What is Sprunki Retake?</h3>
+                    <p class="text-gray-300">Sprunki Retake is a horror-themed mod for Incredibox that transforms the original rhythm game into a dark musical experience with unique horror elements and parasite mechanics.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">How do I trigger Parasite Mode?</h3>
+                    <p class="text-gray-300">To enter Parasite Mode, find and use special items like the black hat or red branch on specific characters. This will transform both the visual and audio aspects of the game.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">Is Sprunki Retake free to play?</h3>
+                    <p class="text-gray-300">Yes, the base mod is completely free to play. Some additional sound packs and features may be available as premium content.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">Can I share my creations?</h3>
+                    <p class="text-gray-300">Yes, you can share your musical compositions with the community and collaborate with other players through various sharing features.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-semibold mb-2">What platforms are supported?</h3>
+                    <p class="text-gray-300">Sprunki Retake is available on both mobile devices (Android/iOS) and web browsers, with optimized controls for each platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-red-900/80 to-purple-900/80"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h2 class="text-4xl font-bold mb-8">Ready to Enter the Darkness?</h2>
+            <a href="#play" class="bg-gradient-to-r from-red-800 to-purple-900 px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform inline-block shadow-lg shadow-red-500/25">Start Creating Horror</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-black/50">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400">&copy; 2024 Sprunki Retake. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Script -->
+    <script>
+        function toggleFullscreen() {
+            const iframe = document.getElementById('game-frame');
+            if (!document.fullscreenElement) {
+                if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                } else if (iframe.webkitRequestFullscreen) {
+                    iframe.webkitRequestFullscreen();
+                } else if (iframe.msRequestFullscreen) {
+                    iframe.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
